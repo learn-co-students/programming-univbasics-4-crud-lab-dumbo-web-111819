@@ -3,17 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["apples", "oranges", "watermelons", "starwberries"]
+  ['Jim', 'Tim', 'Jane', 'Kate']
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push(element)
-  array
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
   array.unshift(element)
-  array
 end
 
 def remove_element_from_end_of_array(array)
@@ -33,7 +31,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array[array.length-1]
+  array[array.length - 1]
 end
 
 def update_element_from_index(array, index_number, element)
